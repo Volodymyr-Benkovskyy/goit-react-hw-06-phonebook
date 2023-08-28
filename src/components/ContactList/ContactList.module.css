@@ -1,10 +1,15 @@
 .contactList {
+  width: 370px;
   padding-left: 0;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .contactItem {
-  list-style: none;
-  font-size: 16px;
-  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
 }
 
 .contactBtnDel {
@@ -12,4 +17,6 @@
   font-size: 12px;
   padding: 2px 0;
   width: 100px;
+  margin-bottom: 5px;
+  border: 1px solid black;
 }

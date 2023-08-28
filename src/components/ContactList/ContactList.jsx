@@ -25,8 +25,12 @@ const ContactList = () => {
       <ul className={s.contactList}>
       {contacts.length !== 0 &&
         filterContactsByName().map(({ id, name, number }) => (
-          <li key={id} className={s.contactItem }>
+          <li key={id} className={s.contactItem}>
+            <span>
               {name}: {number}
+            </span>
+            
+          
             <button
               className={s.contactBtnDel  }  
               type="button"
